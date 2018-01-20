@@ -15,5 +15,9 @@ Run the Server:
 ```
 node server.js
 ```
+or
+```
+node express.js
+```
 
 That's all.
