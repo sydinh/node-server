@@ -1,7 +1,13 @@
-var express = require('express');
-var serveStatic = require('serve-static');
+const express = require('express');
+const serveStatic = require('serve-static');
+const app = express();
 
-var app = express();
+const post = process.env.PORT || 3000;
+const log = console.log;
+
+const callback = () => {
+  log(`Listening on port ${post}!`);
+};
 
 app.use(serveStatic('public/'));
-app.listen(3000);
+app.listen(post, callback());
