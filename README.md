@@ -1,6 +1,6 @@
 # Node Server
 
-> Serve a Static Site
+> Serve a Static Site. A helpful reference for serving your React App.
 
 ## Usage
 
