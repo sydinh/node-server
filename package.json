@@ -5,7 +5,7 @@
   "repository": "git@github.com:sydinh/node-server.git",
   "author": "sydinh <sydinh.dev@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "express": "^4.16.2",
     "serve-static": "^1.13.1"
   }
